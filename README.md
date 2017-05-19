@@ -1,6 +1,6 @@
 # PI_BusinessStuff
 
-## [Visit the live site](https://goo.gl/D9cctcom "Live Site")
+## [Visit the live site](https://goo.gl/D9cctc "Live Site")
 Single page site with a simple modal
 
 Tools Used -
