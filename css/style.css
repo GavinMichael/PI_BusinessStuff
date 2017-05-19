@@ -62,6 +62,15 @@ body {
       .wrapper .text-area#mainContent a {
         display: block;
         width: 8rem; } }
+@media (max-width: 450px) {
+  .wrapper .text-area#mainContent h1 {
+    font-size: 2rem; }
+    .wrapper .text-area#mainContent h1 span {
+      margin-top: 0.5rem;
+      margin-bottom: 0.3rem; }
+  .wrapper .text-area#mainContent a {
+    font-size: 0.5rem;
+    width: 6rem; } }
 .overlay {
   position: absolute;
   left: 0;
@@ -165,3 +174,45 @@ body {
         padding-bottom: 0.5rem; }
     .overlay .modal .graphic {
       display: none; } }
+@media (max-width: 550px) {
+  .overlay .modal {
+    width: 400px; }
+    .overlay .modal .text-box h1 {
+      font-size: 2rem; }
+    .overlay .modal .text-box p {
+      font-size: 1rem; }
+    .overlay .modal form {
+      padding: 0.5rem; }
+      .overlay .modal form input[type='submit'] {
+        margin-left: 0; }
+      .overlay .modal form input {
+        height: 2rem;
+        border: none;
+        display: inline-block;
+        padding: 0 15px;
+        font-size: 0.7rem; } }
+@media (max-width: 450px) {
+  .overlay .modal {
+    width: 200px;
+    text-align: center; }
+    .overlay .modal .text-box {
+      width: 90%;
+      padding: 10px;
+      margin-left: 0; }
+      .overlay .modal .text-box h1 {
+        font-size: 1rem;
+        padding: 0; }
+      .overlay .modal .text-box p {
+        font-size: 0.5rem;
+        padding: 0;
+        margin: 0; }
+    .overlay .modal form {
+      padding: 0.5rem; }
+      .overlay .modal form input[type='submit'] {
+        margin-left: 0; }
+      .overlay .modal form input {
+        height: 1rem;
+        border: none;
+        display: inline-block;
+        padding: 0 10px;
+        font-size: 0.4rem; } }
