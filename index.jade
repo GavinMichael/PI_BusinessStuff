@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='keywords', content='')
+    meta(name='description', content='')
+    meta(name='author', content='Gavin Michael')
+
+    // FavIcon
+    link(rel='icon', size='32x32', href='./img/Favicon.jpg')
+    
+    // Icon CDN
+    link(rel='stylesheet', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+    // Local CSS File
+    link(href='./css/style.css', rel='stylesheet')
+    
+    // Site Title
+    title Business Stuff
+    
+  body
+    .wrapper
+      .text-area#mainContent
+        h1 Good At <br><span>Business?</span>
+        a.cta(href='#') Learn More Now 
+          i.ion-chevron-right
+      .overlay
+        .modal
+          .close:<i class="ion-close"></i>
+          .text-box
+            h1 Business stuff in your inbox, all the time.
+            p Sign up for our newsletter to download this 200+ page secrets of busienss PDF
+          .graphic
+          form
+            input(type="text", placeholder="Email Address")
+            input(type="submit")
+    script(src="http://code.jquery.com/jquery-1.7.2.min.js")
+    script(src='./js/app.js')
