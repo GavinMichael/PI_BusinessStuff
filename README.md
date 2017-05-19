@@ -1,4 +1,4 @@
-# PI_BusinessStuff
+# BusinessStuff
 
 ## [Visit the live site](https://goo.gl/D9cctc "Live Site")
 Single page site with a simple modal
